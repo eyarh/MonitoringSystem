@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Secrets - never commit these
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+dist-ssr/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Claude Code local settings
+.claude/
+
+# Internal working notes - not part of the submitted project
+HANDOVER_NOTES.md
+SUBMISSION_GUIDE.md
+CHANGES.md
+# All environment files
+.env.*
+!.env.example
+
+# Frontend dependencies and builds
+node_modules/
+build/
+
+# Python environments
+.venv/
+venv/
+
+# Private keys and certificates
+*.pem
+*.key
