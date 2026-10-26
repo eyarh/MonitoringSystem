@@ -1,3 +1,4 @@
+ HEAD
 # Smart Monitoring Platform
 
 A monitoring dashboard that watches two example web services, records how they
@@ -235,3 +236,5 @@ are what reliably catch real outages.
 Training the model on a period of known-good data and scoring new measurements
 against that would fix it properly. That is a redesign rather than a settings
 change, and is out of scope here.
+# MonitoringSystem
+3b8eca96bf194de961a970d41b5f4e6182246f97
